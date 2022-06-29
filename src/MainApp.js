@@ -11,7 +11,7 @@ const MainApp = () => {
   return (
     <div>
         {products.length > 1? products.map((product) => (
-            <h1>{product.product_title}</h1>
+            <h1>{product.product_title}w</h1>
         )) : 
         <Loader />
         }
