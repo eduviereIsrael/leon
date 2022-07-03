@@ -16,7 +16,7 @@ const MainApp = () => {
     
   return (
     <div>
-      <HeroBanner product = {products[13]} />
+      <HeroBanner product = {products[6]} />
         {/* display a loader before the product is fetched, use this format in any page where product is being fetched */}
       <div className='products-heading'>
         <h2>Best Selling Products</h2>
