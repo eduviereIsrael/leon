@@ -912,6 +912,7 @@ span.text-red {
   }
   .product-detail-desc {
     width: 90%;
+    padding: 0;
   }
 }
 @media screen and (max-width: 950px){
