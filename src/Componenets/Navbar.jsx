@@ -20,7 +20,7 @@ const Navbar = () => {
 
         </div> */}
         <p className="logo">
-          <Link to="/">JSM Headphones</Link>
+          <Link to="/"><img src="%PUBLIC_URL%/leon-icon.png" alt="logo" width="150px"/></Link>
         </p>
         <button type="button" className='cart-icon' onClick={() => setShowCart(!showCart)}>
           <AiOutlineShopping />

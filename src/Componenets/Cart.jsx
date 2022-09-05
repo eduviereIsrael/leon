@@ -4,6 +4,7 @@ import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 
 import { Link } from "react-router-dom";
 import { TiDeleteOutline } from 'react-icons/ti';
 import { urlFor } from "../Client";
+import FlutterWave from "../FlutterWave";
 
 
 
@@ -76,7 +77,7 @@ const Cart = () => {
                     Pay with Stripe
                   </button>
                 </div> */}
-                {/* <FlutterWave /> */}
+                <FlutterWave />
               </div>
             )}
         </div>
